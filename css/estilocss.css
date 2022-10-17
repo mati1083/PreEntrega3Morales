@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap");
+footer {
+  width: 100vw;
+  height: 10vh; }
+
+header {
+  width: 100vw;
+  height: 10vh;
+  background-color: darkblue; }
+  header .nav-link {
+    color: white !important; }
+  header h1 {
+    color: white; }
+
+main .card-body {
+  padding: 0 !important; }
+
+main .img-fluid {
+  width: 100vw !important; }
+
+main .imgproductor {
+  width: 50vw; }
+
+main .imagenapp {
+  width: 85vh; }
+
+main section p {
+  font-size: 20px !important;
+  font-family: "Roboto", sans-serif !important; }
+
+main strong {
+  font-size: 20px !important;
+  font-family: "Roboto", sans-serif !important; }
+
+ul li {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif; }
+
+p {
+  font-size: 20px !important;
+  font-family: "Roboto", sans-serif; }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  main {
+    background-color: #b4bdbd !important; }
+  footer {
+    display: none; } }

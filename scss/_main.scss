@@ -1,0 +1,41 @@
+main{
+    // width: 100vw;
+    // height: 80vh;
+    .card-body{ 
+        padding: 0 !important;
+    }
+    .img-fluid{
+       width: 100vw !important;
+    }
+
+    .imgproductor{
+        width: 50vw;
+        
+    }
+    .imagenapp{
+        width: 85vh;
+    }
+    section{
+        p{
+            font-size: $fuente-lista*2 !important;
+            font-family: $roboto !important;
+        }
+        }
+        strong{ font-size: $fuente-lista*2 !important;
+            font-family: $roboto !important;
+
+        }
+    }
+
+    ul{
+        li{
+            font-size: $fuente-lista*2;
+            font-family: $roboto;
+        }
+    }
+    p{
+        font-size: $fuente-lista*2 !important;
+        font-family: $roboto;
+    }
+
+   

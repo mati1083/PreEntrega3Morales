@@ -1,0 +1,28 @@
+@import './variable';
+@import './fuentes';
+@import './footer';
+@import './header';
+@import './main';
+
+
+// mediaquery
+
+@media (min-width: 576px) {  }
+
+@media (min-width: 768px) and (max-width: 992px){
+     main{
+        background-color: rgb(180, 189, 189) !important;
+     }
+   //   img{
+   //      display: none;
+   //   }
+
+     footer{
+      display: none;
+     }
+ }
+
+
+
+
+

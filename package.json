@@ -1,0 +1,22 @@
+{
+  "name": "2daentrega-morales-matias",
+  "version": "1.0.0",
+  "description": "segundo proyecton",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-path scss scss/estilo.scss css/estilocss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mati1083/PreEntrega2Morales.git"
+  },
+  "author": "Matias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mati1083/PreEntrega2Morales/issues"
+  },
+  "homepage": "https://github.com/mati1083/PreEntrega2Morales#readme"
+}
